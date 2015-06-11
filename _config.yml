@@ -68,6 +68,6 @@ theme: jacman
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
-  repository: 
-	branch: 
+  type:github
+  repository:https://github.com/anmei/anmei.github.io.git
+	branch:master
