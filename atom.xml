@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://anmei.github.io//"/>
-  <updated>2015-06-13T09:43:27.284Z</updated>
+  <updated>2015-06-13T10:13:52.842Z</updated>
   <id>http://anmei.github.io//</id>
   
   <author>
@@ -16,28 +16,23 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[hexo创建静态blog]]></title>
-    <link href="http://anmei.github.io/2016/06/11/2015-06-11-%E4%BD%BF%E7%94%A8hexo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81blog/"/>
-    <id>http://anmei.github.io/2016/06/11/2015-06-11-使用hexo创建静态blog/</id>
-    <published>2016-06-11T07:30:16.000Z</published>
-    <updated>2015-06-13T09:43:27.284Z</updated>
-    <content type="html"><![CDATA[<h3 id="一、准备阶段">一、准备阶段</h3><h5 id="1-安装gitbash；nodejs、npm(node_package_manager)">1.安装gitbash；nodejs、npm(node package manager)</h5><h5 id="2-进入目录anmei-github-io，安装hexo（一般需要安装在需要建立博客的目录(anmei-github-io)下）">2.进入目录anmei.github.io，安装hexo（一般需要安装在需要建立博客的目录(anmei.github.io)下）</h5><pre><code>cd anmei<span class="class">.github</span><span class="class">.io</span>
-npm install -g hexo
-</code></pre><h3 id="二、使用hexo">二、使用hexo</h3><h5 id="3-初始化将要创建静态blog的目录">3.初始化将要创建静态blog的目录</h5><pre><code>hexo init  
-hexo <span class="keyword">install</span>  
-</code></pre><h5 id="4-使用hexo生成静态页面并预览（预览地址：http://localhost:4000）">4.使用hexo生成静态页面并预览（预览地址：<a href="http://localhost:4000）" target="_blank" rel="external">http://localhost:4000）</a></h5><pre><code><span class="title">hexo</span> clean  
-hexo g  
-hexo s  
-</code></pre><h5 id="5-部署到github">5.部署到github</h5><pre><code><span class="title">hexo</span> d  
-</code></pre><h5 id="6-期间一些注意事项参考http://blog-csdn-net/wx_962464/article/details/44786929">6.期间一些注意事项参考<a href="http://blog.csdn.net/wx_962464/article/details/44786929" title="http://blog.csdn.net/wx_962464/article/details/44786929" target="_blank" rel="external">http://blog.csdn.net/wx_962464/article/details/44786929</a></h5>]]></content>
+    <title><![CDATA[精美图片]]></title>
+    <link href="http://anmei.github.io/2015/06/13/2015-06-13-%E7%B2%BE%E7%BE%8E%E5%9B%BE%E7%89%87/"/>
+    <id>http://anmei.github.io/2015/06/13/2015-06-13-精美图片/</id>
+    <published>2015-06-13T10:13:52.842Z</published>
+    <updated>2015-06-13T10:13:52.842Z</updated>
+    <content type="html"><![CDATA[<h3 id="三只松鼠">三只松鼠</h3><p><img src="/myimgs/1.jpg" alt="Alt 开心极了" title="哈哈"><br><img src="/myimgs/2.jpg" alt="Alt 开心极了" title="哈哈">  </p>
+<h3 id="初春">初春</h3><p><img src="/myimgs/3.jpg" alt="Alt 初春" title="春花"><br><img src="/myimgs/4.jpg" alt="Alt 初春" title="春花"><br><img src="/myimgs/5.jpg" alt="Alt 初春" title="春花">  </p>
+<h3 id="吵架的狮子">吵架的狮子</h3><p><img src="/myimgs/6.jpg" alt="Alt 狮子" title="狮子"><br><img src="/myimgs/7.jpg" alt="Alt 狮子" title="狮子">  </p>
+]]></content>
     <summary type="html">
-    <![CDATA[摘要：如何通过git、hexo创建静态博客。]]>
-    
+    <![CDATA[<h3 id="三只松鼠">三只松鼠</h3><p><img src="/myimgs/1.jpg" alt="Alt 开心极了" title="哈哈"><br><img src="/myimgs/2.jpg" alt="Alt 开心极了" title="哈哈">  </p>
+<]]>
     </summary>
     
       <category term="其他" scheme="http://anmei.github.io/tags/%E5%85%B6%E4%BB%96/"/>
     
-      <category term="折腾" scheme="http://anmei.github.io/tags/%E6%8A%98%E8%85%BE/"/>
+      <category term="图片" scheme="http://anmei.github.io/tags/%E5%9B%BE%E7%89%87/"/>
     
       <category term="其他" scheme="http://anmei.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
@@ -47,8 +42,8 @@ hexo s
     <title><![CDATA[hexo创建静态blog(续)]]></title>
     <link href="http://anmei.github.io/2015/06/13/2015-06-13-%E4%BD%BF%E7%94%A8hexo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81blog(%E7%BB%AD)/"/>
     <id>http://anmei.github.io/2015/06/13/2015-06-13-使用hexo创建静态blog(续)/</id>
-    <published>2015-06-13T09:56:16.883Z</published>
-    <updated>2015-06-13T09:56:16.883Z</updated>
+    <published>2015-06-13T10:03:07.652Z</published>
+    <updated>2015-06-13T10:03:07.652Z</updated>
     <content type="html"><![CDATA[<h5 id="当需要在不同计算机上维护博客时，对于初学者有些麻烦，主要注意以下几点：">当需要在不同计算机上维护博客时，对于初学者有些麻烦，主要注意以下几点：</h5><ul>
 <li>首先安装好环境，包括git、nodeJs、npm、hexo，安装步骤与首次创建hexo博客的步骤相同  </li>
 <li>更改相关theme以及全局配置文件，可以参考之前配置好的配置文件</li>
@@ -60,11 +55,11 @@ hexo s
 <li>首先安装好环境，包括git、nodeJs、npm、hexo，安装步骤与首次创建hexo博客的]]>
     </summary>
     
-      <category term="其他" scheme="http://anmei.github.io/tags/%E5%85%B6%E4%BB%96/"/>
+      <category term="前端" scheme="http://anmei.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
       <category term="折腾" scheme="http://anmei.github.io/tags/%E6%8A%98%E8%85%BE/"/>
     
-      <category term="其他" scheme="http://anmei.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="前端" scheme="http://anmei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -91,6 +86,34 @@ $ hexo deploy</code></p>
     <summary type="html">
     <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
     </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[hexo创建静态blog]]></title>
+    <link href="http://anmei.github.io/2015/06/11/2015-06-11-%E4%BD%BF%E7%94%A8hexo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81blog/"/>
+    <id>http://anmei.github.io/2015/06/11/2015-06-11-使用hexo创建静态blog/</id>
+    <published>2015-06-11T07:30:16.000Z</published>
+    <updated>2015-06-13T10:03:13.476Z</updated>
+    <content type="html"><![CDATA[<h3 id="一、准备阶段">一、准备阶段</h3><h5 id="1-安装gitbash；nodejs、npm(node_package_manager)">1.安装gitbash；nodejs、npm(node package manager)</h5><h5 id="2-进入目录anmei-github-io，安装hexo（一般需要安装在需要建立博客的目录(anmei-github-io)下）">2.进入目录anmei.github.io，安装hexo（一般需要安装在需要建立博客的目录(anmei.github.io)下）</h5><pre><code>cd anmei<span class="class">.github</span><span class="class">.io</span>
+npm install -g hexo
+</code></pre><h3 id="二、使用hexo">二、使用hexo</h3><h5 id="3-初始化将要创建静态blog的目录">3.初始化将要创建静态blog的目录</h5><pre><code>hexo init  
+hexo <span class="keyword">install</span>  
+</code></pre><h5 id="4-使用hexo生成静态页面并预览（预览地址：http://localhost:4000）">4.使用hexo生成静态页面并预览（预览地址：<a href="http://localhost:4000）" target="_blank" rel="external">http://localhost:4000）</a></h5><pre><code><span class="title">hexo</span> clean  
+hexo g  
+hexo s  
+</code></pre><h5 id="5-部署到github">5.部署到github</h5><pre><code><span class="title">hexo</span> d  
+</code></pre><h5 id="6-期间一些注意事项参考http://blog-csdn-net/wx_962464/article/details/44786929">6.期间一些注意事项参考<a href="http://blog.csdn.net/wx_962464/article/details/44786929" title="http://blog.csdn.net/wx_962464/article/details/44786929" target="_blank" rel="external">http://blog.csdn.net/wx_962464/article/details/44786929</a></h5>]]></content>
+    <summary type="html">
+    <![CDATA[摘要：如何通过git、hexo创建静态博客。]]>
+    
+    </summary>
+    
+      <category term="前端" scheme="http://anmei.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="折腾" scheme="http://anmei.github.io/tags/%E6%8A%98%E8%85%BE/"/>
+    
+      <category term="前端" scheme="http://anmei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   

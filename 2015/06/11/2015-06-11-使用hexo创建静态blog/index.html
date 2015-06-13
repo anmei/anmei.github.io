@@ -4,22 +4,23 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>RhCheng</title>
+    <title>hexo创建静态blog | RhCheng</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="RhCheng">
     
 
     
-    <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="RhCheng">
-<meta property="og:url" content="http://anmei.github.io/index.html">
+    <meta name="description" content="摘要：如何通过git、hexo创建静态博客。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo创建静态blog">
+<meta property="og:url" content="http://anmei.github.io/2015/06/11/2015-06-11-使用hexo创建静态blog/index.html">
 <meta property="og:site_name" content="RhCheng">
-<meta property="og:description">
+<meta property="og:description" content="摘要：如何通过git、hexo创建静态博客。">
+<meta property="og:updated_time" content="2015-06-13T10:03:13.476Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="RhCheng">
-<meta name="twitter:description">
+<meta name="twitter:title" content="hexo创建静态blog">
+<meta name="twitter:description" content="摘要：如何通过git、hexo创建静态博客。">
 
     
     <link rel="alternative" href="/atom.xml" title="RhCheng" type="application/atom+xml">
@@ -69,95 +70,109 @@
 </div>
     </header>
     <div id="container">
-      <div id="main">
-
+      <div id="main" class="post" itemscope itemprop="blogPost">
   
-<section class="post" itemscope itemprop="blogitem">
-  
-    <a href="/2015/06/13/2015-06-13-精美图片/" title="精美图片" itemprop="url">
-  
-    <h1 itemprop="name">精美图片</h1>
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
     
-     
-           <p itemprop="description" >三只松鼠  
-初春  
-吵架的狮子</p>
-        
+      <a href="/2015/06/11/2015-06-11-使用hexo创建静态blog/" title="hexo创建静态blog" itemprop="url">hexo创建静态blog</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="RhCheng" target="_blank" itemprop="author">RhCheng</a>
+		
+  <p class="article-time">
+    <time datetime="2015-06-11T07:30:16.000Z" itemprop="datePublished"> 发表于 2015-06-11</time>
     
-    <time datetime="2015-06-13T10:13:52.842Z" itemprop="datePublished">2015-06-13</time>
-  </a>
-</section>
+  </p>
+</header>
+	<div class="article-content">
+		
+		<h3 id="一、准备阶段">一、准备阶段</h3><h5 id="1-安装gitbash；nodejs、npm(node_package_manager)">1.安装gitbash；nodejs、npm(node package manager)</h5><h5 id="2-进入目录anmei-github-io，安装hexo（一般需要安装在需要建立博客的目录(anmei-github-io)下）">2.进入目录anmei.github.io，安装hexo（一般需要安装在需要建立博客的目录(anmei.github.io)下）</h5><pre><code>cd anmei<span class="class">.github</span><span class="class">.io</span>
+npm install -g hexo
+</code></pre><h3 id="二、使用hexo">二、使用hexo</h3><h5 id="3-初始化将要创建静态blog的目录">3.初始化将要创建静态blog的目录</h5><pre><code>hexo init  
+hexo <span class="keyword">install</span>  
+</code></pre><h5 id="4-使用hexo生成静态页面并预览（预览地址：http://localhost:4000）">4.使用hexo生成静态页面并预览（预览地址：<a href="http://localhost:4000）" target="_blank" rel="external">http://localhost:4000）</a></h5><pre><code><span class="title">hexo</span> clean  
+hexo g  
+hexo s  
+</code></pre><h5 id="5-部署到github">5.部署到github</h5><pre><code><span class="title">hexo</span> d  
+</code></pre><h5 id="6-期间一些注意事项参考http://blog-csdn-net/wx_962464/article/details/44786929">6.期间一些注意事项参考<a href="http://blog.csdn.net/wx_962464/article/details/44786929" title="http://blog.csdn.net/wx_962464/article/details/44786929" target="_blank" rel="external">http://blog.csdn.net/wx_962464/article/details/44786929</a></h5>  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/前端/">前端</a>
+</div>
 
 
-
-
-
-
+  <div class="article-tags">
   
-<section class="post" itemscope itemprop="blogitem">
-  
-    <a href="/2015/06/13/2015-06-13-使用hexo创建静态blog(续)/" title="hexo创建静态blog(续)" itemprop="url">
-  
-    <h1 itemprop="name">hexo创建静态blog(续)</h1>
-    
-     
-           <p itemprop="description" >当需要在不同计算机上维护博客时，对于初学者有些麻烦，主要注意以下几点：
-首先安装好环境，包括git、nodeJs、npm、hexo，安装步骤与首次创建hexo博客的步骤相同  
-更改相关theme以及全局配置文件，可以参考之前配置好的配置文件
-(重要)执行hexo d命令时可能会</p>
-        
-    
-    <time datetime="2015-06-13T10:03:07.652Z" itemprop="datePublished">2015-06-13</time>
-  </a>
-</section>
-
-
-
-
-
-
-  
-<section class="post" itemscope itemprop="blogitem">
-  
-    <a href="/2015/06/13/hello-world/" title="Hello World" itemprop="url">
-  
-    <h1 itemprop="name">Hello World</h1>
-    
-     
-           <p itemprop="description" >Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the </p>
-        
-    
-    <time datetime="2015-06-13T07:03:14.740Z" itemprop="datePublished">2015-06-13</time>
-  </a>
-</section>
-
-
-
-
-
-
-  
-<section class="post" itemscope itemprop="blogitem">
-  
-    <a href="/2015/06/11/2015-06-11-使用hexo创建静态blog/" title="hexo创建静态blog" itemprop="url">
-  
-    <h1 itemprop="name">hexo创建静态blog</h1>
-    
-     
-      <p itemprop="description" >摘要：如何通过git、hexo创建静态博客。</p>
-      
-    
-    <time datetime="2015-06-11T07:30:16.000Z" itemprop="datePublished">2015-06-11</time>
-  </a>
-</section>
-
-
-
-
-
-
+  <span></span> <a href="/tags/前端/">前端</a><a href="/tags/折腾/">折腾</a>
+  </div>
 
 </div>
+
+
+
+	<div class="article-share" id="share">
+	
+	<div class="share-jiathis">
+	  
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_googleplus"></a>
+	<a class="jiathis_button_douban"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+    var jiathis_config={
+    data_track_clickback:true,
+    sm:"copy,renren,cqq",
+    pic:"",
+    summary:"",
+     ralateuid:{"tsina":"rhcheng001"},hideMore:false}
+    
+  </script> 
+<script type="text/javascript" src="//v3.jiathis.com/code/jia.js?uid=
+2037730" charset="utf-8"></script>      
+
+	 </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/06/13/hello-world/" title="Hello World">
+  <strong>上一篇：</strong><br/>
+  <span>
+  Hello World</span>
+</a>
+</div>
+
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2015/06/11/2015-06-11-使用hexo创建静态blog/" data-title="hexo创建静态blog" data-url="http://anmei.github.io/2015/06/11/2015-06-11-使用hexo创建静态blog/"></div>
+</section>
+
+
+</div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
 <div id="asidepart">
@@ -320,6 +335,32 @@ $(document).ready(function(){
 });
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
 
 
 
@@ -426,4 +467,4 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 <!-- Tiny_search End -->
 
   </body>
- </html>
+</html>
