@@ -44,24 +44,27 @@ hexo s
   </entry>
   
   <entry>
-    <title></title>
+    <title><![CDATA[hexo创建静态blog(续)]]></title>
     <link href="http://anmei.github.io/2015/06/13/2015-06-13-%E4%BD%BF%E7%94%A8hexo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81blog(%E7%BB%AD)/"/>
     <id>http://anmei.github.io/2015/06/13/2015-06-13-使用hexo创建静态blog(续)/</id>
-    <published>2015-06-13T09:52:10.397Z</published>
-    <updated>2015-06-13T09:52:10.367Z</updated>
-    <content type="html"><![CDATA[<p>title: hexo创建静态blog(续)<br>categories: 其他<br>tags: [其他,折腾]  </p>
-<hr>
-<h5 id="当需要在不同计算机上维护博客时，对于初学者有些麻烦，主要注意以下几点：">当需要在不同计算机上维护博客时，对于初学者有些麻烦，主要注意以下几点：</h5><ul>
+    <published>2015-06-13T09:56:16.883Z</published>
+    <updated>2015-06-13T09:56:16.883Z</updated>
+    <content type="html"><![CDATA[<h5 id="当需要在不同计算机上维护博客时，对于初学者有些麻烦，主要注意以下几点：">当需要在不同计算机上维护博客时，对于初学者有些麻烦，主要注意以下几点：</h5><ul>
 <li>首先安装好环境，包括git、nodeJs、npm、hexo，安装步骤与首次创建hexo博客的步骤相同  </li>
 <li>更改相关theme以及全局配置文件，可以参考之前配置好的配置文件</li>
 <li>(重要)执行hexo d命令时可能会无法提交到远端仓库，可以检查.deploy_git目录是否已经git初始化，若未初始化，则应该使用git pull等方法先初始化，完成后一切可正常使用</li>
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>title: hexo创建静态blog(续)<br>categories: 其他<br>tags: [其他,折腾]  </p>
-<hr>
-<h5 id="当需要在不同计算机上维护博客时，对于初学者有些麻烦，主要注意以下几点：">当需要在不同计算机上维护博客时，对于初学者有些]]>
+    <![CDATA[<h5 id="当需要在不同计算机上维护博客时，对于初学者有些麻烦，主要注意以下几点：">当需要在不同计算机上维护博客时，对于初学者有些麻烦，主要注意以下几点：</h5><ul>
+<li>首先安装好环境，包括git、nodeJs、npm、hexo，安装步骤与首次创建hexo博客的]]>
     </summary>
+    
+      <category term="其他" scheme="http://anmei.github.io/tags/%E5%85%B6%E4%BB%96/"/>
+    
+      <category term="折腾" scheme="http://anmei.github.io/tags/%E6%8A%98%E8%85%BE/"/>
+    
+      <category term="其他" scheme="http://anmei.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
   </entry>
   
