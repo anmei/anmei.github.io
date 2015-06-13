@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[RhCheng]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://anmei.github.io//"/>
+  <updated>2015-06-13T07:23:47.332Z</updated>
+  <id>http://anmei.github.io//</id>
+  
+  <author>
+    <name><![CDATA[RhCheng]]></name>
+    <email><![CDATA[1298160604@qq.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[hexo创建blog]]></title>
+    <link href="http://anmei.github.io/2016/06/11/2015-06-11-%E4%BD%BF%E7%94%A8hexo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81blog/"/>
+    <id>http://anmei.github.io/2016/06/11/2015-06-11-使用hexo创建静态blog/</id>
+    <published>2016-06-11T07:30:16.000Z</published>
+    <updated>2015-06-13T07:23:47.332Z</updated>
+    <content type="html"><![CDATA[<h3 id="准备阶段">准备阶段</h3><h5 id="安装gitbash；nodejs、npm(node_package_manager)">安装gitbash；nodejs、npm(node package manager)</h5><h5 id="安装hexo（安装在需要建立博客的目录(anmei-github-io)下）">安装hexo（安装在需要建立博客的目录(anmei.github.io)下）</h5><pre><code>npm <span class="keyword">install</span> -g hexo
+</code></pre><h3 id="使用hexo">使用hexo</h3><h5 id="进入目录anmei-github-io,初始化将要创建hexo_blog的目录">进入目录anmei.github.io,初始化将要创建hexo blog的目录</h5><pre><code>cd anmei<span class="class">.github</span><span class="class">.io</span>  
+hexo init  
+hexo install  
+</code></pre><h5 id="使用hexo生成静态页面并预览（预览地址：http://localhost:4000）">使用hexo生成静态页面并预览（预览地址：<a href="http://localhost:4000）" target="_blank" rel="external">http://localhost:4000）</a></h5><pre><code><span class="title">hexo</span> clean  
+hexo g  
+hexo s  
+</code></pre><h5 id="部署到github">部署到github</h5><pre><code><span class="title">hexo</span> d  
+</code></pre><h5 id="期间一些注意事项参考http://blog-csdn-net/wx_962464/article/details/44786929">期间一些注意事项参考<a href="http://blog.csdn.net/wx_962464/article/details/44786929" title="http://blog.csdn.net/wx_962464/article/details/44786929" target="_blank" rel="external">http://blog.csdn.net/wx_962464/article/details/44786929</a></h5>]]></content>
+    <summary type="html">
+    <![CDATA[摘要：如何通过git、hexo创建静态博客。]]>
+    
+    </summary>
+    
+      <category term="其他" scheme="http://anmei.github.io/tags/%E5%85%B6%E4%BB%96/"/>
+    
+      <category term="折腾" scheme="http://anmei.github.io/tags/%E6%8A%98%E8%85%BE/"/>
+    
+      <category term="其他" scheme="http://anmei.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://anmei.github.io/2015/06/13/hello-world/"/>
+    <id>http://anmei.github.io/2015/06/13/hello-world/</id>
+    <published>2015-06-13T07:03:14.740Z</published>
+    <updated>2015-06-11T09:17:06.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><p><code>bash
+$ hexo new &quot;My New Post&quot;</code></p>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><p><code>bash
+$ hexo server</code></p>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><p><code>bash
+$ hexo generate</code></p>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><p><code>bash
+$ hexo deploy</code></p>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
